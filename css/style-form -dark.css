@@ -1,0 +1,184 @@
+.paret-form{
+    background: url("../asstes/background/back-form-dark.png")
+    #000 no-repeat fixed center ;
+    background-size: cover;
+    background-color: #000;
+    position: relative;
+} 
+
+
+.facebook>input{
+    display: inline-block;
+    background-color: black;
+    border:0.1px #3578E5 solid;
+    color: #3578E5;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.form{
+    display: inline-block;
+    padding: 25px;
+    margin-top: 206px;
+    background-color: #000;
+    width: 400px;
+    height: 450px;
+    border: #fff 0.5px solid;
+    margin: 100px 100px 100px 612px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.google>input{
+    display: inline-block;
+    background-color:  #000;
+    border-width: 0.2px;
+    border-style: solid;
+    border-image: linear-gradient(to left, blue, red,yellow,green) 1;
+    background: -webkit-linear-gradient( blue, red,yellow,green);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+.apple>input{
+    display: inline-block;
+    background-color:  #000;;
+    border: 0.1px silver solid;
+    color: silver;
+    width: 400px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+p{
+    width: 400px;
+    color:#fff ;
+}
+
+
+.line{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+
+.email input {
+    width: 390px;
+    height: 25px;
+    background-color: #000000;
+    padding: 7px 8px;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 17px;
+    border: #222222 0.5px solid;
+    cursor: pointer;
+}
+
+
+.continue>input{
+    display: inline-block;
+    background-color:  #000;
+    border: 0.1px #ff5500 solid;
+    color: #ff5500;
+    width: 400px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+pre{
+    color: #fff;
+}
+.footerimg{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    border: none;
+} 
+
+
+.khaste{
+    position: fixed;
+    top:50px;
+    right: 50px;
+}
+
+.back-page{
+    height: 95px;
+    width: 95px ;
+    background-color: #000;
+    border-radius: 50%;
+    border: 0.1px #ff5500 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.back-page span{
+    width: 60px;
+    height: 10px;
+    background-color: #F2F2F2;
+    position: absolute;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+
+.back-page span:nth-child(1){
+    transform: rotate(45deg);
+    top: 30px;
+}
+
+.back-page span:nth-child(2){
+    bottom: 28px;
+    transform: rotate(-45deg);
+}
+
+.back-page:hover :nth-child(1){
+    top: 38px;
+    transition: all 0.5s ease;
+    animation: animation 0.2s;
+    background-color: #ff5500;
+    border: 0.2px #fff solid;
+}
+
+
+.back-page:hover :nth-child(2){
+    top: 38px;
+    transition: all 0.5s ease;
+    animation: animation .2s;
+    background-color: #ff5500;
+    border: 0.2px #fff solid;
+}
+
+
+@keyframes animation {
+    0%{ opacity: 0.5 ;}
+    50%{ opacity: 0.6;}
+    100%{ opacity: 1;}
+}
+

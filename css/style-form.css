@@ -1,0 +1,167 @@
+.paret-form{
+    background: url("../asstes/background/back-form.png")
+    no-repeat fixed center ;
+    background-size:cover;
+} 
+  
+.facebook>input{
+    display: inline-block;
+    background-color: #3578E5;
+    border: none;
+    color: #fff;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.form{
+    display: inline-block;
+    padding: 25px;
+    margin-top: 206px;
+    background-color: #fff;
+    width: 400px;
+    height: 450px;
+    border: #000000 0.5px solid;
+    margin: 100px 100px 100px 612px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.google>input{
+    display: inline-block;
+    background-color:  #fff;
+    border: 0.1px #000 solid;
+    color: #222222;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+.apple>input{
+    display: inline-block;
+    background-color:  #000;;
+    border: none;
+    color: #fff;
+    width: 400px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+p{
+    width: 400px;
+}
+
+
+.line{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+
+.email input {
+    width: 390px;
+    height: 25px;
+    background-color: #ffffff;
+    padding: 7px 8px;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    color: #222222;
+    font-size: 17px;
+    border: #222222 0.5px solid;
+    cursor: pointer;
+}
+
+
+.continue>input{
+    display: inline-block;
+    background-color:  #ff5500;
+    border: none;
+    color: #fff;
+    width: 400px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+.khaste{
+    position: fixed;
+    top:50px;
+    right: 50px;
+}
+
+.back-page{
+    height: 95px;
+    width: 95px ;
+    background-color: #000;
+    border-radius: 50%;
+    border: 0.1px #ff5500 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.back-page span{
+    width: 60px;
+    height: 10px;
+    background-color: #F2F2F2;
+    position: absolute;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+
+.back-page span:nth-child(1){
+    transform: rotate(45deg);
+    top: 30px;
+}
+
+
+.back-page span:nth-child(2){
+    bottom: 28px;
+    transform: rotate(-45deg);
+}
+
+
+.back-page:hover :nth-child(1){
+    top: 38px;
+    transition: all 0.5s ease;
+    animation: animation 0.2s;
+    background-color: #ff5500;
+    border: 0.2px #fff solid;
+}
+
+
+.back-page:hover :nth-child(2){
+    top: 38px;
+    transition: all 2s ease;
+    animation: animation 2s;
+    background-color: #ff5500;
+    border: 0.2px #fff solid;
+}
+
+
+@keyframes animation {
+    0%{ opacity: 0.5 ;}
+    50%{ opacity: 0.6;}
+    100%{ opacity: 1;}
+}
+
